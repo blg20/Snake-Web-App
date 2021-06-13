@@ -18,6 +18,7 @@ window.score = 0
 
 
 export function update_snakespeed(input) {
+    // here i would add the same features as the grid size slider
     // SNAKE_SPEED = input;
 }
 

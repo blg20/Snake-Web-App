@@ -9,7 +9,7 @@ let game_over = false;
 const game_board = document.getElementById('game-board');
 const high_scores = document.querySelector("#high-scores > tbody");
 
-console.log(high_scores.innerHTML);
+//console.log(high_scores.innerHTML);
 
 
 //to update high scores table after death
