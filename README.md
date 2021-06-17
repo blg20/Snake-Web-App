@@ -1,4 +1,5 @@
 ## server side function
+
 function submitHighScore(){
     var userName =  document.getElementById("player_name_form").value;
 
@@ -23,6 +24,8 @@ function submitHighScore(){
 
 
 ## server.js
+
+
 import express from "express";
 import Handler from "./handler.js";
 
@@ -56,6 +59,8 @@ app.listen(port, function () {
 
 
 ## Handler 
+
+
 const Handler = Object.create(null);
 
 let scoreboard = [];
