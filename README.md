@@ -1,4 +1,4 @@
-## server side function
+## server side function in game.js
 
     function submitHighScore(){
         var userName =  document.getElementById("player_name_form").value;
